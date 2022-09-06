@@ -274,16 +274,13 @@ img{
 
 a { 
     color: white;
+
 }
 
-@media only screen and (max-width: 767px) {
 
-    .header, .sidebar, .navigation-bar, .box, .footer{
-
-        font-size: 20px;
-        
-        
-
-
+@media screen and (max-width: 600px) {
+    aside {
+      width: 100%;
+      
     }
-}
+  }
