@@ -154,17 +154,19 @@
 }
 
 
-aside {
+.aside {
 
 
     flex-wrap: wrap;
     padding: 1rem;
-    max-width: 20%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: 2%;
+    margin-right: 2%;
     margin-top: 2%;
     margin-bottom: 5%;
     border: solid teal;
+    text-align: center;
     
     
 }
@@ -278,9 +280,23 @@ a {
 }
 
 
-@media screen and (max-width: 600px) {
-    aside {
-      width: 100%;
+
+  @media screen and (width <= 700px) {
+    .navigation-bar  {
+      
+      display: inline;
+      padding: 5px;
+      scale: 50%;
+      font-size: 10px;
       
     }
+
+    .Portfolio {
+      
+        
+        font-size: 50px;
+        
+      }
   }
+
+
