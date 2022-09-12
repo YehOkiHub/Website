@@ -195,7 +195,7 @@ main{
 
     width: 100%;  
     color: white !important;
-    padding: 60px;
+    padding: 60px; 
     white-space: normal;
     background: linear-gradient(to right top, #4a9c9c, #bed7db)
     
@@ -281,20 +281,21 @@ a {
 
 
 
-  @media screen and (width <= 700px) {
-    .navigation-bar  {
+@media screen and (width <= 700px) {
+    .navigation-bar {
       
-      display: inline;
-      padding: 5px;
-      scale: 50%;
-      font-size: 10px;
+      display: flex;
+      padding: 2px;
+      justify-content: start;
+      
+      /* scale: 50%; */
       
     }
 
     .Portfolio {
       
         
-        font-size: 50px;
+        font-size: 60px;
         
       }
   }
